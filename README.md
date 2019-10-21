@@ -22,7 +22,7 @@ Inside the Plugin's code, you have access to the `DOM` as expected.
 
 Easy to test it using `Jest`, or any other tool of convenience.
 
-Checkout [index.test.js](./index.test.js).
+Check out [index.test.js](./index.test.js).
 
 ### 3rd Party Libraries
 
