@@ -30,11 +30,10 @@ You can use any 3rd party libraries installed with `npm` or `yarn`.
 
 ### Naming convention
 
-Plugin name should be unique and under the `@ampify` namespace.
-Follow by `plugin-` and its name after.
+Plugin name should be unique and under the `@ampify` namespace,
+Followed by `plugin-` and its name after.
 
-Eg: For a plugin named `toggle` it would be: `@ampify/plugin-toggle`
-and `package.json` file should look like this:
+Eg: For a plugin named `toggle` it would be: `@ampify/plugin-toggle` and `package.json` file should look like this:
 
 ```json
 {
@@ -52,9 +51,7 @@ To publish plugin you should open pull request to Ampify's Plugin repository (TB
 ### Caveats
 
 Be aware that the plugin will run in another website,
-So you don't have control of what this website changed to the `window` object or
-`Prototype`.
+So you don't have control of what this website changed to the `window` object or `Prototype`.
 
 It is best advised to use 3rd party utility library,
-like `lodash`, and not depend of js native methods
-as they could have been changed by the website.
+like `lodash`, and not depend on js native methods as they could have been changed by the website.
