@@ -20,9 +20,9 @@ Inside the Plugin's code, you have access to the `DOM` as expected.
 
 ### Testing
 
-Just run `yarn test`.
-
 Easy to test it using `Jest`, or any other tool of convenience.
+
+Checkout [index.test.js](./index.test.js).
 
 ### 3rd Party Libraries
 
@@ -34,6 +34,6 @@ Be aware that the plugin will run in another website,
 So you don't have control of what this website changed to the `window` object or
 `Prototype`.
 
-It is best advice to use 3rd party utility library,
+It is best advised to use 3rd party utility library,
 like `lodash`, and not depend of js native methods
 as they could have been changed by the website.
