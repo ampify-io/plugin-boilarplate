@@ -28,6 +28,17 @@ Checkout [index.test.js](./index.test.js).
 
 You can use any 3rd party libraries installed with `npm` or `yarn`.
 
+### Naming convention
+
+Plugin name should be unique and under the `@ampify` namespace.
+Follow by `plugin-` and its name after.
+
+Eg: `@ampify/plugin-toggle`.
+
+### Submit plugin
+
+To publish plugin you should open pull request to Ampify's Plugin repository (TBA).
+
 ### Caveats
 
 Be aware that the plugin will run in another website,
