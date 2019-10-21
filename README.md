@@ -33,7 +33,7 @@ You can use any 3rd party libraries installed with `npm` or `yarn`.
 Plugin name should be unique and under the `@ampify` namespace.
 Follow by `plugin-` and its name after.
 
-Eg: `@ampify/plugin-toggle`.
+Eg: `@ampify/plugin-toggle`
 
 ### Submit plugin
 
