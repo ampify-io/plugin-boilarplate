@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`prepare 1`] = `
+Object {
+  "h1": "hello",
+  "result": Array [
+    3,
+    2,
+    1,
+  ],
+}
+`;
+
+exports[`run 1`] = `
+Object {
+  "options": Object {},
+  "result": "6-4-2",
+}
+`;
